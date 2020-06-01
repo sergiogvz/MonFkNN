@@ -1,6 +1,6 @@
 # MonFkNN - Monotonic Fuzzy k-Nearest Neighbors 
 
-Monotonic Fuzzy k-Nearest Neighbors is a adaptation of the original Fuzzy k-NN for Monotonic Classification. 
+Monotonic Fuzzy k-Nearest Neighbors is an adaptation of the original Fuzzy k-NN for Monotonic Classification. 
 
 This repository includes the following files:
 - *skeel/classification/lazy_learning/MonFuzzyKNN:* Main class of Monotonic Fuzzy k-NN. It extends MonKNN.
@@ -14,3 +14,6 @@ This repository includes the following files:
 - *skeel/utils/Score:* Class to compute the confusion matrix and different measurements giving the real and predicted class labels.
 - *skeel/utils/MonotonicScore:* Class to compute different measurements of monotonic classification giving the real and predicted class labels. It extends Score class.
 
+This proposal was accepted as a research paper in the journal Neurocomputing.
+[ArXiv manuscript](https://arxiv.org/abs/2003.02601)
+ 
